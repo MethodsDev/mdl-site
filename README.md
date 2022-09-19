@@ -1,5 +1,5 @@
-# Hippo
+# MDL site
 
-This is a work-in-progress lab wiki, with both public and private sections (protected behind Google auth).
+Very simple website for the Methods Development Lab @ the Broad Institute.
 
-Built with mkdocs and Google Firebase.
+More to come in the future.
