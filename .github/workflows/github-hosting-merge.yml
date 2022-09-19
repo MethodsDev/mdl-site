@@ -22,6 +22,6 @@ jobs:
         with:
           python-version: '3.10'
       - run: |
-        pip install mkdocs mkdocs-bootswatch && \
-        cd gh-pages && \
-        mkdocs gh-deploy --config-file ../main/mkdocs.yml --remote-branch main
+          pip install mkdocs mkdocs-bootswatch
+          cd gh-pages
+          mkdocs gh-deploy --config-file ../main/mkdocs.yml --remote-branch main
