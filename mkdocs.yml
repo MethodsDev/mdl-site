@@ -1,0 +1,8 @@
+site_name: MDL
+theme: slate
+docs_dir: src
+site_dir: public
+repo_url: https://github.com/MethodsDev/mdl-site
+edit_uri: edit/main/src/
+plugins:
+  - search
