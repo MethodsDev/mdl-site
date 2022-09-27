@@ -1,0 +1,25 @@
+# build the page and deploy to the org site repo
+# https://github.com/firebase/firebase-tools
+
+name: Deploy to Firebase Hosting on merge
+'on':
+  push:
+    branches:
+      - main
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: |
+          pip install mkdocs mkdocs-bootswatch
+          mkdocs build
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_METHODS_DEV_LAB }}'
+          channelId: live
+          projectId: methods-dev-lab
