@@ -17,7 +17,7 @@ A very useful plugin is [Notifications](https://github.com/mwakaba2/jupyterlab-n
 
 Some of our repositories are private to our GitHub account, which means that accessing the code requires logging in with your GitHub credentials. You can use SSH to make this automatic. [Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) has a useful guide for how to generate a key and add it to your account.
 
-One trick to make this work is that you need to set the **remote url** for the repository, so that it knows you use ssh at all. You can do this from inside the repository directory, like this (using `slideseq-tools` as an example, even though it is a public repository):
+One trick to make this work is that you need to set the **remote url** for the repository, so that it knows you use ssh at all. You can do this from inside the repository directory, like this (using the repository for this website as an example):
 
 ```
 git remote set-url origin git@github.com:MethodsDev/mdl-site.git
