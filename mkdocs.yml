@@ -6,3 +6,6 @@ repo_url: https://github.com/MethodsDev/mdl-site
 edit_uri: edit/main/src/
 plugins:
   - search
+markdown_extensions:
+  - attr_list
+  - tables
