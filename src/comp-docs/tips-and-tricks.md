@@ -23,10 +23,10 @@ If you are running JupyterLab on a Google VM, you will want to access the server
 A simpler solution is to use `ssh` with port-forwarding, and map a port on the VM to a port on your own computer (`localhost`). JupyterLab is typically running on port 8080, and this command will let you access the VM, without needing to be on our network:
 
 ```
-gcloud compute ssh [instance-name] --tunnel-through-iap -- -NL 8080:localhost:[local port of your choice]
+gcloud compute ssh [instance-name] --tunnel-through-iap -- -NL [local-port]:localhost:8080
 ```
 
-The command won't terminate, it will remain running until you want to close to the connection (use `Ctrl-C` in the terminal to stop it).
+The command won't terminate, it will remain running until you want to close the connection (use `Ctrl-C` in the terminal to stop it).
 
 ## Setting up SSH for your GitHub account
 
