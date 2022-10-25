@@ -6,8 +6,9 @@ repo_url: https://github.com/MethodsDev/mdl-site
 edit_uri: edit/main/src/
 nav:
     - 'index.md'
-    - 'about.md'
-    - 'comp-docs/index.md'
+    - 'vision.md'
+    - Team: 'team.md'
+    - Docs: 'comp-docs/index.md'
 plugins:
   - search
 markdown_extensions:

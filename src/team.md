@@ -1,10 +1,4 @@
-# About
-
-<!-- TODO: write a real description here -->
-
-The MDL is a lab for methods development.
-
-## Lab Members
+# Lab Members
 
 <!-- 
 the empty comments in the header are necessary to convince markdown it is a table.
