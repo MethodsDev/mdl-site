@@ -6,7 +6,8 @@ These are some tools, configuration tricks, and other tips that can make computa
 
  * Use `zsh` ("zee-shell"). `zsh` is an alternative to `bash`, which is the default interface when you open a Terminal on Mac. It has a lot of nice features compared to `bash`, like a better history and more useful auto-completion. See [`Oh-My-Zsh`](https://ohmyz.sh/) for a guide on how to install and configure.
 
-   **Note:** `zsh` is now the default shell on Mac OS. `Oh-My-Zsh` is still a nice addition.
+    **Note:** `zsh` is now the default shell on Mac OS. `Oh-My-Zsh` is still a nice addition.
+
  * Use `conda` and/or `mamba`. `conda` is a package manager, which makes it much easier to keep track of different versions and environments. [`miniconda`](https://docs.conda.io/en/latest/miniconda.html) is the minimal version which only includes the manager tool, without a set of default packages (which take up a lot of space). [`mamba`](https://mamba.readthedocs.io/en/latest/installation.html#installation) is a newer project which is much faster and works better at configuring complicated environments. If you are starting fresh, `mamba` is the best option, via their [`mambaforge`](https://github.com/conda-forge/miniforge#mambaforge) downloader.
 
 ## Jupyter tips
