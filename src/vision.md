@@ -22,10 +22,3 @@ Once an approach is nominated, a partner lab will be selected with which to co-d
 
 At this juncture, iterative methods refinement will likely take place between the molecular and computational teams. Once the molecular and computational methods are optimized, they will transition to productionization; subsequently being disseminated to the Broad community (Figure 1c).
 
-## Funding & Sustainability
-
-Sustainability is a central feature of the MDL structure. At key stages of methods development and implementation, these novel approaches/data will be included in grant proposals (Figure 2), as well as proposed to industry as partnership opportunities. 
-
-Once developed, the GP can option to productionize methods which display sufficient interest across the Broad community. The scaled dissemination of cutting-edge tools across Broad labs will result in a broad competitive increase of grant proposals, ultimately creating new opportunities across the Institute. Additionally, certain methods will have the potential to nucleate Broad/Industry partnerships – uniquely enabling collaborative development and resourcing of ambitious flagship projects.
-
-![Figure 2](img/fig2.png)
