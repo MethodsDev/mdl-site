@@ -4,6 +4,8 @@ docs_dir: src
 site_dir: public
 repo_url: https://github.com/MethodsDev/mdl-site
 edit_uri: edit/main/src/
+extra_css:
+    - css/extra.css
 nav:
     - 'index.md'
     - 'vision.md'
