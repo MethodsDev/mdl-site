@@ -17,4 +17,4 @@ The MDL is looking for molecular and computational scientists at all levels. Con
 | ![Frances Keer](img/frances.png) | Frances Keer | Graduate Student <br/>NSF Fellow<br/>Co-mentored with [Paul Blainey](http://blainey.mit.edu/)
 | ![Dan Bartlett](img/dan.png) | Dan Bartlett | Postdoctoral Associate
 | ![Alexandre Melnikov](img/alex.png) | Alexandre Melnikov | Senior Research Scientist
-| ![Akanksha Khorgade](img/akanksha.png) | Akanksha Khorgade | Senior Computational Associate
+| ![Akanksha Khorgade](img/akanksha.jpg) | Akanksha Khorgade | Senior Computational Associate
