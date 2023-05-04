@@ -13,7 +13,6 @@ The MDL is looking for molecular and computational scientists at all levels. Con
 | ![Aziz Al'Khafaji](img/aziz.jpeg) | Aziz Al'Khafaji <br/> aalkhafa \[at\] broadinstitute \[dot\] org | Associate Director, MDL
 | ![Asa Shin](img/asa.jpeg) | Asa Shin | Research Associate
 | ![James Webber](img/james.jpg) | James Webber | Senior Computational Scientist
-| ![Zachary Zwirko](img/zach.jpg) | Zachary Zwirko | Senior Research Scientist II
 | ![Frances Keer](img/frances.png) | Frances Keer | Graduate Student <br/>NSF Fellow<br/>Co-mentored with [Paul Blainey](http://blainey.mit.edu/)
 | ![Dan Bartlett](img/dan.png) | Dan Bartlett | Postdoctoral Associate
 | ![Alexandre Melnikov](img/alex.jpg) | Alexandre Melnikov | Senior Research Scientist
