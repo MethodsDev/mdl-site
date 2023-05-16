@@ -10,6 +10,8 @@ These are some tools, configuration tricks, and other tips that can make computa
 
  * Use `conda` and/or `mamba`. `conda` is a package manager, which makes it much easier to keep track of different versions and environments. [`miniconda`](https://docs.conda.io/en/latest/miniconda.html) is the minimal version which only includes the manager tool, without a set of default packages (which take up a lot of space). [`mamba`](https://mamba.readthedocs.io/en/latest/installation.html#installation) is a newer project which is much faster and works better at configuring complicated environments. If you are starting fresh, `mamba` is the best option, via their [`mambaforge`](https://github.com/conda-forge/miniforge#mambaforge) downloader.
 
+    [`micromamba`](https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html) is another version which aims to provide a small, single-file version of `mamba`. It is still a little rough around the edges for interactive usage but it can be even faster.
+
 ## Jupyter tips
 
 [JupyterLab](https://jupyter.org/install) is the latest generation, and newer plugins will expect you to be using it rather than the original Jupyter Notebook.
@@ -27,6 +29,20 @@ gcloud compute ssh [instance-name] --tunnel-through-iap -- -NL [local-port]:loca
 ```
 
 The command won't terminate, it will remain running until you want to close the connection (use `Ctrl-C` in the terminal to stop it).
+
+The option `--tunnel-through-iap` lets you connect without being inside the Broad network. If you _are_ inside the network, it can cause problems. If you don't want to remember this detail, you can create a shell function to figure this out for you, based on your IP (the Broad has a block of IPs starting with `69.173`):
+
+```
+function iap() {
+   ! [[ `curl -s ifconfig.me` =~ ^69.173 ]] && echo --tunnel-through-iap
+}
+```
+
+And then you use this function in your ssh command like so:
+
+```
+gcloud compute ssh [instance-name] `iap`
+```
 
 ## Setting up SSH for your GitHub account
 
