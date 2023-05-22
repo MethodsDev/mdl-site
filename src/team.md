@@ -20,3 +20,4 @@ The MDL is looking for molecular and computational scientists at all levels. Con
 | ![Brian Haas](img/brian.png) | Brian Haas | Principal Research Scientist
 | ![Christophe Georgescu](img/christophe.png) | Christophe Georgescu | Senior Computational Associate
 | ![Ghamdan Al-Eryani](img/gammy.png) | Ghamdan Al-Eryani | Postdoctoral Associate
+| ![Emily White](img/emily.jpg) | Emily White | Senior Research Scientist
