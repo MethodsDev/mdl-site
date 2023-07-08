@@ -7,7 +7,7 @@ This set of pages is to document computational tools used in the MDL. Right now 
 
 ## MDL packages
 
-We have a small but growing library of Python packages on [Github](https://www.github.com). Packages live in the `mdl` [namespace package](https://packaging.python.org/en/latest/guides/packaging-namespace-packages/), but can be installed separately based on need.
+We have a small but growing library of Python packages on [Github](https://www.github.com/MethodsDev). Packages live in the `mdl` [namespace package](https://packaging.python.org/en/latest/guides/packaging-namespace-packages/), but can be installed separately based on need.
 
 [`isoscelles`](https://github.com/MethodsDev/isoscelles) is a toolkit for single-cell analysis, with a focus on isoforms (although much of the functionality applies to short-read data well). It does things like gene selection, shared-nearest-neighbors, and clustering.
 
