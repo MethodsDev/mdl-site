@@ -7,8 +7,8 @@ But why would you do that when you can follow this guide and do almost the same 
 The main advantages of doing it this way:
 
  * We can install `mamba` from the beginning
- * We can use the latest Python and jupyterlab versions
- * Easier access to everything from within the jupyterlab terminal itself. The DL versions make it difficult to install things
+ * We can use the latest Python and `jupyterlab` versions
+ * Easier access to everything from within the `jupyterlab` terminal itself. The DL VMs make it difficult to install things
 
 None of the stuff on this page is unique to the MDL, so I hope it's useful for other folks too.
 
@@ -54,7 +54,7 @@ lsblk
 sudo bash /tmp/gcp-vm/setup.sh [/dev/sdb]  # leave the argument blank if not needed
 ```
 
-And then restart the instance with `gcloud compute instances reset [instance-name]`. Once it has restarted, you should be able to connect to jupyterlab.
+And then restart the instance with `gcloud compute instances reset [instance-name]`. Once it has restarted, you should be able to connect to `jupyterlab`.
 
 ### Step by step version
 
@@ -156,4 +156,4 @@ At this point, we can exit our ssh session and `gcloud compute instances reset` 
 
 #### Acknowledgements
 
-A couple of the scripts here were adapted from the stuff Google is installs on their VMs. So I'll thank them for making it all available, and mildly chide them for making it this difficult to customize everything. 🙂
+A couple of the scripts here were adapted from the stuff Google installs on their VMs. So I'll thank them for making it all available, and mildly chide them for making it this difficult to customize everything. 🙂
