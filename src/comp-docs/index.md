@@ -3,6 +3,7 @@
 This set of pages is to document computational tools used in the MDL. Right now we have:
  
  * [Some tips](tips-and-tricks.md) that might be useful for getting started
+ * A guide to [setting up Jupyterlab on a GCP VM](gcp-vms.md)
  * A short guide to [code style](code-style.md) for Python projects in the lab
 
 ## MDL packages
