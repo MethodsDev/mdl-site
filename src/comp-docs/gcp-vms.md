@@ -20,7 +20,7 @@ For now, we don't need a lot of CPU power or memory, so a standard 2-vCPU instan
 
 ### Disk configuration
 
-GCP charges for disks based on the type and the size. The default is a `balanced persistent disk` which offers faster access but at increased cost. For large data disks, it is better to use a `standard persistent disk`. It's easy to make a disk bigger on the fly if you need more space, but it's a pain to migrate to a smaller disk. So there are two options for setting up a VM
+GCP charges for disks based on the type and the size. The default is a `balanced persistent disk` which offers faster access but at increased cost. For large data disks, it is better to use a `standard persistent disk`. It's easy to make a disk bigger on the fly if you need more space, but it's a pain to migrate to a smaller disk. So there are two options for setting up a VM:
 
  * Use one big disk for the OS, your code, packages, and the data
  * Create a fast boot disk for the OS and code, and attach a separate data disk that's big
@@ -49,7 +49,7 @@ wget https://github.com/MethodsDev/gcp-vm/releases/download/v0.1/gcp-vm.tgz -O -
 lsblk
 # the output will list the attached disks.
 # your data disk is the large one that isn't attached to anything
-# it's *probably* doing to be /dev/sdb but sometimes it isn't
+# it's *probably* going to be /dev/sdb but sometimes it isn't
 
 sudo bash /tmp/gcp-vm/setup.sh [/dev/sdb]  # leave the argument blank if not needed
 ```
