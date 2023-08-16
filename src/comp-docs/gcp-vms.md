@@ -20,7 +20,7 @@ For now, we don't need a lot of CPU power or memory, so a standard 2-vCPU instan
 
 ### Disk configuration
 
-GCP charges for disks based on the type and the size. The default is a `balanced persistent disk` which offers faster access but at increased cost. For large data disks, it is better to use a `standard persistent disk`. It's easy to make a disk bigger on the fly if you need more space, but it's a pain to migrate to a smaller disk. So there are two options for setting up a VM
+GCP charges for disks based on the type and the size. The default is a `balanced persistent disk` which offers faster access but at increased cost. For large data disks, it is better to use a `standard persistent disk`. It's easy to make a disk bigger on the fly if you need more space (see [below](#expanding-the-size-of-a-disk)), but it's a pain to migrate to a smaller disk. So there are two options for setting up a VM
 
  * Use one big disk for the OS, your code, packages, and the data
  * Create a fast boot disk for the OS and code, and attach a separate data disk that's big
@@ -32,6 +32,12 @@ Another concern is that eventually the VM image you used might become _deprecate
 The benefit of using two disks is that you can keep the software on a faster disk, and only use the standard persistent disk for data. When you've finished with a particular analysis, you can copy it all up to a bucket and remove the data disk. Then you can create a fresh one for a new dataset.
 
 Alternatively, you could detach the data disk and attach it to a new VM with updated software. It's nice to be able to create a fresh VM on the fly with new dependencies, when desired.
+
+#### Expanding the size of a disk
+
+If you end up needing more space, you can expand a disk even while the VM is running. [Google's documentation](https://cloud.google.com/compute/docs/disks/resize-persistent-disk) explains this step-by-step. For a data disk, it's as simple as resizing and then running `resize2fs` on the device.
+
+**Note:** You can't _shrink_ a disk this way. Try to be conscientious about creating huge disks, as we have to pay for that storage. If you need a lot of disk space temporarily, you can create a big disk and then delete it when you're done (saving final outputs in a bucket).
 
 ## Setting up the VM
 
