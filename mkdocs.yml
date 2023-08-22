@@ -10,7 +10,6 @@ nav:
     - 'index.md'
     - 'vision.md'
     - Team: 'team.md'
-    - Docs: 'comp-docs/index.md'
 plugins:
   - search
 markdown_extensions:
