@@ -19,6 +19,6 @@ The MDL is looking for molecular and computational scientists at all levels. Con
 | ![Akanksha Khorgade](img/akanksha.jpg) | Akanksha Khorgade | Senior Computational Associate
 | ![Brian Haas](img/brian.png) | Brian Haas | Principal Research Scientist
 | ![Christophe Georgescu](img/christophe.png) | Christophe Georgescu | Senior Computational Associate
-| ![Ghamdan Al-Eryani](img/gammy.png) | Ghamdan Al-Eryani | Postdoctoral Associate
+| ![Ghamdan Al-Eryani](img/gammy.png) | Ghamdan Al-Eryani | Postdoctoral Associate<br/>Co-mentored with [Nir Hacohen](https://www.massgeneral.org/cancer-center/clinical-trials-and-research/center-for-cancer-research/investigators/hacohen-lab)
 | ![Emily White](img/emily.jpg) | Emily White | Senior Research Scientist
 | ![Houlin Yu](img/houlin.png) | Houlin Yu | Computational Scientist
