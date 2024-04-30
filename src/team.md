@@ -22,3 +22,4 @@ The MDL is looking for molecular and computational scientists at all levels. Con
 | ![Ghamdan Al-Eryani](img/gammy.png) | Ghamdan Al-Eryani | Postdoctoral Associate<br/>Co-mentored with [Nir Hacohen](https://www.massgeneral.org/cancer-center/clinical-trials-and-research/center-for-cancer-research/investigators/hacohen-lab)
 | ![Emily White](img/emily.jpg) | Emily White | Senior Research Scientist
 | ![Houlin Yu](img/houlin.png) | Houlin Yu | Computational Scientist
+| ![Guoping Wang](img/guoping.png) | Guoping Wang | Postdoctoral Associate
