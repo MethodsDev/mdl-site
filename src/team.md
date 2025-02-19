@@ -26,9 +26,9 @@ The MDL is looking for molecular and computational scientists at all levels. Con
 
 | | <!-- --> | <!-- -->
 |-|----------|---------
-| ![Asa Shin](img/asa.jpeg) | Asa Shin | Research Associate
-| ![James Webber](img/james.jpg) | James Webber | Senior Computational Scientist
-| ![Dan Bartlett](img/dan.png) | Dan Bartlett | Postdoctoral Associate
-| ![Emily White](img/emily.jpg) | Emily White | Senior Research Scientist
-| ![Zack Zwirko](img/zack.jpg) | Zack Zwirko | Senior Research Scientist II
+| ![Asa Shin](img/previous/asa.jpeg) | Asa Shin | Research Associate
+| ![James Webber](img/previous/james.jpg) | James Webber | Senior Computational Scientist
+| ![Dan Bartlett](img/previous/dan.png) | Dan Bartlett | Postdoctoral Associate
+| ![Emily White](img/previous/emily.jpg) | Emily White | Senior Research Scientist
+| ![Zack Zwirko](img/previous/zack.jpg) | Zack Zwirko | Senior Research Scientist II
 
