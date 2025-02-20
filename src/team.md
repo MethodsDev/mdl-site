@@ -10,7 +10,7 @@ The MDL is looking for molecular and computational scientists at all levels. Con
 
 | | <!-- --> | <!-- -->
 |-|----------|---------
-| ![Aziz Al'Khafaji](img/aziz.jpeg) | Aziz Al'Khafaji <br/> aalkhafa \[at\] broadinstitute \[dot\] org | Director, Molecular R&D, MDL
+| ![Aziz Al'Khafaji](img/aziz.jpeg) | Aziz Al'Khafaji <br/> aalkhafa \[at\] broadinstitute \[dot\] org | Director, Molecular R&D, <br/> PI, MDL
 | ![Frances Keer](img/frances.png) | Frances Keer | Graduate Student <br/>NSF Fellow<br/>Co-mentored with [Paul Blainey](http://blainey.mit.edu/)
 | ![Alexandre Melnikov](img/alex.jpg) | Alexandre Melnikov | Senior Research Scientist
 | ![Akanksha Khorgade](img/akanksha.jpg) | Akanksha Khorgade | Senior Computational Associate
