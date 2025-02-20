@@ -1,6 +1,7 @@
 # Home
 
-![MDL_logo](img/MDL_logo.png)
+![MDL_logo_2025](https://github.com/user-attachments/assets/8e977c28-80a0-46f0-b1e3-ed9128375276)
+
     
 The Methods Development lab (MDL) is a R&D arm of the [Broad Clinical Labs](https://broadclinicallabs.org/) at the [Broad Institute](https://www.broadinstitute.org). The mission of the MDL is to drive expansion of high-value biological frontiers via the concerted development and application of productionizable methods between Broad labs, centers, and platforms.
 
