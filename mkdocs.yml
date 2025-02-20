@@ -24,7 +24,7 @@ extra_css:
     - css/extra.css
 nav:
     - 'index.md'
-    - 'vision.md'
+    - 'resources.md'
     - Team: 'team.md'
 plugins:
   - search
