@@ -1,6 +1,0 @@
-# Vision
-
-The combination of biotechnological and computational advances over the past decade have substantially augmented our ability to create high-performance methods, driving biological discovery and development of transformative medical breakthroughs. During this time of great potential there exists an opportunity to, in an organized and interdisciplinary fashion, identify high-value scientific frontiers and develop and disseminate high-performance end-to-end solutions. While the current accelerated pace of methods development offers great promise, the rapid expansion of novel techniques gives rise to new challenges of adoption and effective implementation. 
-
-The Methods Development Lab (MDL) is an R&D arm of Broad Institute's [Broad Clinical Labs](https://broadclinicallabs.org/) which plays a central role in coordinating the development, productionisation, and dissemination of methods of great interest to the scientific community. The structure and relationships of the MDL purposefully seek to generate a collective and sustainable model of methods development and implementation. Our coordinated efforts minimize technical and analytical barriers, effectively equipping the scientific community with cutting edge tools to drive scientific impact and discovery. 
-
