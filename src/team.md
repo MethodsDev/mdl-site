@@ -4,10 +4,6 @@
 the empty comments in the header are necessary to convince markdown it is a table.
 -->
 
-### We are hiring!
-
-The MDL is looking for molecular and computational scientists at all levels. Contact Aziz if you are interested.
-
 | | <!-- --> | <!-- -->
 |-|----------|---------
 | ![Aziz Al'Khafaji](img/aziz.jpeg) | Aziz Al'Khafaji <br/> aalkhafa \[at\] broadinstitute \[dot\] org | Director, Molecular R&D, <br/> PI, MDL
