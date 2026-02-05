@@ -1,6 +1,13 @@
 {
   "hosting": {
     "public": "public",
+    "redirects": [
+      {
+        "source": "**",
+        "destination": "https://sites.broadinstitute.org/mdl",
+        "type": 301
+      }
+    ]
     "ignore": [
       "firebase.json",
       "**/.*",
